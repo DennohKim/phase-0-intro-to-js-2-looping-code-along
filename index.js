@@ -1,20 +1,20 @@
 
-const messages = [];
+let messages = [];
 
 function writeCards(names, event) {
   for (let i = 0; i < names.length; i++) {
     messages.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
-    console.log(names.length)
-    
+
   }
 
   return messages
-  
+
 
 }
 
-console.log(writeCards(["Guadalupe", "Ollie", "Aki"], "surprise"));
-console.log(messages)
+// console.log(writeCards(["Guadalupe", "Ollie", "Aki"], "surprise"));
+debugger;
+
 // writeCards();
 
 
